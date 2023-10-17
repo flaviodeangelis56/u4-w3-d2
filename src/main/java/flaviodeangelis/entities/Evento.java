@@ -18,10 +18,13 @@ public class Evento {
     private TipoEvento tipoEvento;
     private int numeroMassimoPartecipanti;
 
+    public Evento() {
+    }
 
-public Evento(String titolo,Date dataEvento,String descrizione,TipoEvento tipoEvento,int numeroMassimoPartecipanti){
+    public Evento(String titolo,String descrizione, TipoEvento tipoEvento, int numeroMassimoPartecipanti){
+        Date eventDate = new Date();
     this.titolo = titolo;
-    this.dataEvento = dataEvento;
+    this.dataEvento = eventDate;
     this.descrizione = descrizione;
     this.tipoEvento = tipoEvento;
     this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;

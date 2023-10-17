@@ -5,24 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d72fc16e-f87a-435a-8929-ed41554fec70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flaviodeangelis/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flaviodeangelis/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flaviodeangelis/entities/Evento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flaviodeangelis/entities/TipoEvento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flaviodeangelis/utils/JpaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/flaviodeangelis/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flaviodeangelis/entities/EventoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flaviodeangelis/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flaviodeangelis/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flaviodeangelis/entities/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flaviodeangelis/entities/Evento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
