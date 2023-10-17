@@ -33,6 +33,10 @@ public class EventoDAO {
         } else {
             System.err.println("Evento con id" + id + "non esistente");
         }
+    }
 
+    public void refresh(Evento e) {
+        em.refresh(e);
     }
 }
+
